@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S6o/MJ5CkJZsMJJQwU5zYE5TaiQPZsv7n/+mR/X+xsb9TD7/M2xIY47z6rDauOLlMtvCyfiWAseMu89TweD1lA==",
+  "dgSpecHash": "fAjYcb0SWQcs3W/UTfVnkPeyv+nagfGNrIsvmdGVW9w8vn72eu+B+4MwMe3jVDPH8unUyhrGp9E7z3SdosRDoA==",
   "success": true,
-  "projectFilePath": "c:\\programowanie\\skinet2\\Core\\Core.csproj",
+  "projectFilePath": "C:\\programowanie\\skinet2\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
