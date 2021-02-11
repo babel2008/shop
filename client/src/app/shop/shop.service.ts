@@ -5,6 +5,7 @@ import { IPagination } from '../shared/models/pagination';
 import { IType } from '../shared/models/protuctType';
 import {delay, map} from 'rxjs/operators';
 import { ShopParams } from '../shared/models/shopParams';
+import { IProduct } from '../shared/models/product';
 
 @Injectable({
   providedIn: 'root'
@@ -36,11 +37,15 @@ export class ShopService {
     
     return this.http.get<IPagination>(this.baseUrl + 'products', {observe: 'response', params})
     .pipe(
-      delay(1000),
+      
       map(response => {
         return response.body;
       })
     );
+  }
+
+  getProduct(id: number) {
+    return this.http.get<IProduct>(this.baseUrl + 'products/' + id);
   }
 
   getBrands() {
