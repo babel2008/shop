@@ -7,6 +7,10 @@ ssl
 # Only exists if Bazel was run
 /bazel-out
 
+#database
+*.rdb
+*.db
+
 # dependencies
 /node_modules
 
@@ -44,3 +48,6 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+obj
+bin
+appsettings.json
